@@ -40,25 +40,39 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+
+This survey aims to find out the drivers for high turnover, focusing on entry- and lower-level roles by measuring employee satisfaction, the intention to stay or leave the company, and existing gaps in pay, workload, management, growth, and culture. Findings will inform corporate HR and management of actions to improve retention and work experience in the company in general
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+> Target Population: All entry- and lower-level roles at the company and recent leavers of the company
+> Sampling Frame: Current entry and lower-level employees registered under HRIS e.g. Workday and voluntary leavers who leave the company in the last 6   
+ months
+> Sampling Units: Individual employees and recent leavers
+> Sampling strategy: Stratified sampling by department, role level as in entry or lower level, work mode (onsite/hybrid/remote), and employment status (current vs. recent leaver).
+
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+> On a scale from 1 to 10, how satisfied you are with the company?
 2. write your question here...
+> How likely you would stay in the company in the upcoming year? (from 1 to 10)
 3. write your question here...
+> On a scale from 1 to 10, how manageable your workload and stress at work is?
 4. write your question here...
+> On a scale from 1 to 10, how much do you agree that “I can see a realistic path for advancement or skill growth at the company"
 5. write your question here...
+> On a scale from 1 to 10, how much do you agree that “My total compensation is competitive for my role and market”.
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
@@ -72,6 +86,34 @@ Identify and describe survey features:
 
 ```
 write your answer here
+
+1. Sample type: > Cross-sectional, probability sample; stratified by province/CMA, with a two-stage design and rejective sub-sampling for non-volunteers (long/short forms)
+2. Sample size: > around 50,000 units, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+3. Target population: > All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame: > Combined frame linking landline + cellular numbers (from Census/admin sources) to Statistics Canada’s dwelling frame (telephone numbers grouped by address)
+5. Survey mode(s) : > Electronic questionnaire (web) and CATI (telephone); English/French; average interview ~44 minutes
+6. Timeline: Collection: > September 4–December 28, 2018. Data release for PUMF: January 26, 2021
+7. Response rate: > Overall 41.9%
+8. Weights: > Person weight WGHT_PER for estimation; bootstrap weights for variance. Weights include adjustments for rejective sub-sampling and calibration
+9. Data processing: > Generalized processing (SSPE); automated + manual flow/consistency/family edits; CATI range/flow checks; head-office review.
+10. Cleaning, imputation, etc: 
+> Primarily donor imputation (score-based nearest donor), with mean imputation as fallback; nine imputation steps (income first, then formal/informal  volunteering, then donations/solicitations). Income obtained via tax linkage when permitted (personal income from 2017 T1FF for ~82% of respondents; remaining imputed)
+
+11. Sources of error: Sampling error (addressed with bootstrap weights).
+> Coverage error (households without telephone service excluded; under/over-coverage possible).
+ Nonresponse error (household and person-level; mitigated via weighting adjustments and use of admin characteristics to model nonresponse).
+ Response/processing errors (mitigated via questionnaire testing, CATI edits, SSPE)
+
+12. Limitations, known biases, etc
+>Territorial residents and institutional populations are out of scope.
+ Telephone-based frame may under-cover phoneless households (bias reduced but not eliminated).
+ Rejective sub-sampling and long/short forms require correct weighting for unbiased estimates.
+ Content and methodological changes vs. prior cycles affect strict comparability of trend estimates.
+
+13. Link to documentation and any additional sources used
+>The General Social Survey: An Overview
+ Last review : January 7, 2021
+ Format: The General Social Survey: An Overview - https://www150.statcan.gc.ca/n1/en/catalogue/89F0115X
 ```
 
 ## Rubric
